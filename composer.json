@@ -1,0 +1,24 @@
+{
+    "name": "hkt/psr7-asset-example",
+    "minimum-stability":"dev",
+    "require": {
+        "hkt/psr7-asset": "1.*",
+        "http-interop/http-middleware": "^0.4.1",
+        "http-interop/http-factory":"^0.2",
+        "zendframework/zend-expressive-helpers": "^2.0",
+        "zendframework/zend-expressive-twigrenderer": "^1.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hkt\\Psr7AssetExample\\":"src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.x-dev"
+        }
+    },
+    "license": [
+        "MIT"
+    ]
+}
