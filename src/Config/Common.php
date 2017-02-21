@@ -25,6 +25,6 @@ class Common implements ContainerConfigInterface
         $template->addPath($rootPath . DIRECTORY_SEPARATOR . 'templates', 'hkt-psr7-asset-example');
 
         $assetLocator = $di->get('Hkt\Psr7Asset\AssetLocator');
-        $assetLocator->set('hkt/psr7-asset-example', $rootPath . DIRECTORY_SEPARATOR . 'web');
+        $assetLocator->set('hkt/psr7-asset-example', $rootPath . DIRECTORY_SEPARATOR . 'public');
     }
 }
