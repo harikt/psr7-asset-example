@@ -9,7 +9,6 @@ class Common implements ContainerConfigInterface
     public function define(Container $di)
     {
         $di->params['Hkt\Psr7AssetExample\Action\WelcomeAction'] = [
-            'router' => $di->lazyGet('Zend\Expressive\Router\RouterInterface'),
             'template' => $di->lazyGet('Zend\Expressive\Template\TemplateRendererInterface'),
             'responseFactory' => $di->lazyGet('Interop\Http\Factory\ResponseFactoryInterface')
         ];
