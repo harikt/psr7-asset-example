@@ -8,10 +8,16 @@
         "zendframework/zend-expressive-helpers": "^3.0",
         "zendframework/zend-expressive-twigrenderer": "^1.2"
     },
+    "require-dev": {
+        "psr/container": "^1.*"
+    }
     "autoload": {
         "psr-4": {
             "Hkt\\Psr7AssetExample\\":"src/"
         }
+    },
+    "suggest": {
+        "psr/container": "Needs an implementaion of psr/container if using WelcomeFactory class"
     },
     "extra": {
         "branch-alias": {
