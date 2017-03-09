@@ -3,6 +3,8 @@ namespace Hkt\Psr7AssetExample;
 
 use Hkt\Psr7AssetExample\Middleware\Welcome;
 use Hkt\Psr7AssetExample\Container\WelcomeFactory;
+use Hkt\Psr7AssetExample\Middleware\Asset;
+use Hkt\Psr7AssetExample\Container\AssetFactory;
 
 class ConfigProvider
 {
@@ -25,6 +27,7 @@ class ConfigProvider
         return [
             'factories' => [
                 Welcome::class => WelcomeFactory::class,
+                Asset::class => AssetFactory::class,
             ],
         ];
     }
