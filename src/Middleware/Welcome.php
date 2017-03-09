@@ -1,6 +1,6 @@
 <?php
 
-namespace Hkt\Psr7AssetExample\Action;
+namespace Hkt\Psr7AssetExample\Middleware;
 
 use Interop\Http\Factory\ResponseFactoryInterface;
 use Interop\Http\ServerMiddleware\MiddlewareInterface;
@@ -8,7 +8,7 @@ use Interop\Http\ServerMiddleware\DelegateInterface;
 use Psr\Http\Message\ServerRequestInterface;
 use Zend\Expressive\Template\TemplateRendererInterface;
 
-class WelcomeAction implements MiddlewareInterface
+class Welcome implements MiddlewareInterface
 {
     private $template;
 
