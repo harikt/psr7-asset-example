@@ -22,6 +22,9 @@
     "extra": {
         "branch-alias": {
             "dev-master": "1.x-dev"
+        },
+        "zf": {
+            "config-provider": "Hkt\\Psr7AssetExample\\ConfigProvider"
         }
     },
     "license": [
