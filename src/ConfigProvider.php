@@ -18,6 +18,11 @@ class ConfigProvider
                         dirname(__DIR__) . '/templates'
                     ],
                 ],
+            ],
+            'middleware_pipeline' => [
+                [
+                    'middleware' => Asset::class,
+                ],
             ]
         ];
     }
