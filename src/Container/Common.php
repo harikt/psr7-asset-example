@@ -1,5 +1,5 @@
 <?php
-namespace Hkt\Psr7Asset;
+namespace Hkt\Psr7AssetExample\Container;
 
 use Aura\Di\Container;
 use Aura\Di\ContainerConfigInterface;
