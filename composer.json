@@ -6,10 +6,8 @@
         "http-interop/http-middleware": "^0.4.1",
         "http-interop/http-factory":"^0.2",
         "zendframework/zend-expressive-helpers": "^3.0",
-        "zendframework/zend-expressive-twigrenderer": "^1.2"
-    },
-    "require-dev": {
-        "psr/container": "^1.0"
+        "zendframework/zend-expressive-twigrenderer": "^1.2",
+        "aura/di": "^3.0"
     },
     "autoload": {
         "psr-4": {
